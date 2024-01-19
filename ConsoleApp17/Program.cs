@@ -14,7 +14,6 @@ while (true)
         Console.WriteLine("Invalid Input. Try again...");
         continue;
     }
-    // test
     Random random = new Random();
     int computerRandomNumber = random.Next(1, 4);
     string computerMove = "";
